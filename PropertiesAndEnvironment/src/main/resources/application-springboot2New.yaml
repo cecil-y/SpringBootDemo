@@ -1,0 +1,31 @@
+
+#springboot2中将移除特殊字符，配置均以小写的方式进行匹配和加载,一下4种配置方式等价
+spring :
+  jpa :
+    databaseplatform: mysql
+    database-platform: mysql
+    databasePlatform: mysql
+    database_platform: mysql
+
+##############LIST类型##########################
+# 在yaml文件中使用可以使用如下配置：
+sping1 :
+    my-example :
+      url :
+        - http://example.com
+        - http://spring.io
+
+#  也支持逗号分割的方式：
+spring2 :
+  my-example :
+    url : http://example.com, http://spring.io
+
+###############MAP类型##############################
+spring3:
+  my-example:
+    foo: bar
+    hello: world
+#  注意：如果Map类型的key包含非字母数字和-的字符，需要用[]括起来，比如：
+spring4:
+  my-example:
+    '[foo.baz]': bar
