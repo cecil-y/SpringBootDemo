@@ -14,6 +14,7 @@
         <module>SpringBoot2Properties</module>
         <module>SpringBoot2Event</module>
         <module>SpringBootRESTfulAPIAndUnitTest</module>
+        <module>Thymeleaf</module>
     </modules>
 
     <!--引用springboot框架 -->
@@ -59,6 +60,12 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.16.20</version>
+        </dependency>
+        <!--thymeleaf 模板渲染依赖-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+            <version>2.1.1.RELEASE</version>
         </dependency>
 
 
