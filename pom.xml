@@ -17,6 +17,7 @@
         <module>Thymeleaf</module>
         <module>Freemarker</module>
         <module>Velocity</module>
+        <module>Swagger2</module>
     </modules>
 
     <!--引用springboot框架 -->
