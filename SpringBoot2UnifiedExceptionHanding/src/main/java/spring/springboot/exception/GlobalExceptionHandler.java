@@ -9,7 +9,7 @@ import spring.springboot.dto.ErrorInfo;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * 同一异常处理
+ * 统一异常处理
  */
 @ControllerAdvice
 public class GlobalExceptionHandler {

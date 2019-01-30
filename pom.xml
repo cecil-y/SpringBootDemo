@@ -19,6 +19,8 @@
         <module>Velocity</module>
         <module>Swagger2</module>
         <module>SpringBoot2UnifiedExceptionHanding</module>
+        <module>SpringBoot2Java8TimeAPI</module>
+        <module>SpringBoot2XMLrequest</module>
     </modules>
 
     <!--引用springboot框架 -->
