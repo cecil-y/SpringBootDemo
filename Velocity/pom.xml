@@ -9,7 +9,15 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>PropertiesAndEnvironment</artifactId>
+    <artifactId>Velocity</artifactId>
 
+    <dependencies>
+        <!--velocity 模板渲染依赖-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-velocity</artifactId>
+            <version>1.4.7.RELEASE</version>
+        </dependency>
+    </dependencies>
 
 </project>

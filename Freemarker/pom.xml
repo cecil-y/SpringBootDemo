@@ -9,7 +9,15 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>PropertiesAndEnvironment</artifactId>
+    <artifactId>Freemarker</artifactId>
 
+    <dependencies>
+        <!--freemarker 模板渲染依赖-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-freemarker</artifactId>
+            <version>2.1.1.RELEASE</version>
+        </dependency>
+    </dependencies>
 
 </project>
