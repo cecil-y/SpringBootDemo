@@ -22,6 +22,7 @@
         <module>SpringBoot2Java8TimeAPI</module>
         <module>SpringBoot2XMLrequest</module>
         <module>JDBCTemplate</module>
+        <module>SpringBoot2SpringDataJpa</module>
     </modules>
 
     <!--引用springboot框架 -->
