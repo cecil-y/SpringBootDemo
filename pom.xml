@@ -18,6 +18,7 @@
         <module>Freemarker</module>
         <module>Velocity</module>
         <module>Swagger2</module>
+        <module>SpringBoot2UnifiedExceptionHanding</module>
     </modules>
 
     <!--引用springboot框架 -->
