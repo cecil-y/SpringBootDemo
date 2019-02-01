@@ -26,6 +26,7 @@
         <module>MultiDataBaseJDBCTempalte</module>
         <module>MultiDataBaseSpringDataJPA</module>
         <module>SpringBoot2Redis</module>
+        <module>SpringBoot2MongoDB</module>
     </modules>
 
     <!--引用springboot框架 -->
