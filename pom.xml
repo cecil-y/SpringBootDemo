@@ -23,6 +23,8 @@
         <module>SpringBoot2XMLrequest</module>
         <module>JDBCTemplate</module>
         <module>SpringBoot2SpringDataJpa</module>
+        <module>MultiDataBaseJDBCTempalte</module>
+        <module>MultiDataBaseSpringDataJPA</module>
     </modules>
 
     <!--引用springboot框架 -->
