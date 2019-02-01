@@ -25,6 +25,7 @@
         <module>SpringBoot2SpringDataJpa</module>
         <module>MultiDataBaseJDBCTempalte</module>
         <module>MultiDataBaseSpringDataJPA</module>
+        <module>SpringBoot2Redis</module>
     </modules>
 
     <!--引用springboot框架 -->
@@ -65,15 +66,21 @@
             <scope>test</scope>
         </dependency>
         <!--jdbc-->
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.boot</groupId>-->
+            <!--<artifactId>spring-boot-starter-jdbc</artifactId>-->
+            <!--<version>2.1.1.RELEASE</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>mysql</groupId>-->
+            <!--<artifactId>mysql-connector-java</artifactId>-->
+            <!--<version>8.0.12</version>-->
+        <!--</dependency>-->
+        <!--redis-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-jdbc</artifactId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
             <version>2.1.1.RELEASE</version>
-        </dependency>
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.12</version>
         </dependency>
 
         <dependency>
