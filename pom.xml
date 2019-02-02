@@ -28,6 +28,7 @@
         <module>SpringBoot2Redis</module>
         <module>SpringBoot2MongoDB</module>
         <module>SpringBoot2MyBatis</module>
+        <module>MyBatisAnnotation</module>
     </modules>
 
     <!--引用springboot框架 -->
