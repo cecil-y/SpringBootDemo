@@ -9,8 +9,11 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import spring.springboot.entity.User;
 import spring.springboot.repository.UserRepository;
 
+import javax.transaction.Transactional;
+
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest
+//@Transactional() //事务
 public class SDJApplicationTest {
 
     @Autowired
